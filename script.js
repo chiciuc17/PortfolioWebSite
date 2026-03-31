@@ -25,14 +25,14 @@ const translations = {
         projects: {
             title: "My",
             projects: "Projects",
-            p1Title: "Project One",
-            p1Desc: "A mesmerizing web application built with modern technologies. Focus on UI/UX and performance.",
-            p2Title: "Project Two",
-            p2Desc: "An innovative mobile-first solution designed to solve real-world problems efficiently.",
-            p3Title: "Project Three",
-            p3Desc: "Complex backend system visualization. Data-heavy but presented with clarity and style.",
-            code: "Code",
-            demo: "Demo"
+            p1Title: "AI Object Detection",
+            p1Desc: "Development of software for rack detection in production, including independent construction and training of the required dataset.",
+            p2Title: "Equipment Monitoring",
+            p2Desc: "Integration of production equipment into the Iconics SCADA system for live monitoring of critical machine data such as temperatures and speeds.",
+            p3Title: "ShopGuide (AI4Youth)",
+            p3Desc: "AI assistant for the visually impaired in supermarkets. Developed at the Intel competition \"Zukunftsrebellen\" (4th place in the Lower Saxony qualifying).",
+            p4Title: "Energy Process Analysis",
+            p4Desc: "Data-driven process analysis to uncover loss gaps in production facilities with a clear focus on sustainable energy savings."
         },
         contact: {
             title: "Let's",
@@ -70,14 +70,14 @@ const translations = {
         projects: {
             title: "Meine",
             projects: "Projekte",
-            p1Title: "Projekt Eins",
-            p1Desc: "Eine faszinierende Webanwendung mit modernen Technologien. Fokus auf UI/UX und Leistung.",
-            p2Title: "Projekt Zwei",
-            p2Desc: "Eine innovative Mobile-First-Lösung zur effizienten Lösung realer Probleme.",
-            p3Title: "Projekt Drei",
-            p3Desc: "Komplexe Backend-Systemvisualisierung. Datenintensiv, aber klar und stilvoll präsentiert.",
-            code: "Code",
-            demo: "Demo"
+            p1Title: "KI-Objekterkennung",
+            p1Desc: "Entwicklung einer Software zur Gestellenerkennung in der Produktion, inklusive eigenständigem Aufbau und Training des benötigten Datasets.",
+            p2Title: "Anlagen-Monitoring",
+            p2Desc: "Integration von Produktionsanlagen in das SCADA-System Iconics zur Live-Überwachung wichtiger Maschinendaten wie Temperaturen und Geschwindigkeiten.",
+            p3Title: "ShopGuide (AI4Youth)",
+            p3Desc: "KI-Assistenz für Sehbehinderte in Supermärkten. Entwickelt beim Intel-Wettbewerb \"Zukunftsrebellen\" (4. Platz beim Niedersachsen-Qualifying).",
+            p4Title: "Energie-Prozessanalyse",
+            p4Desc: "Datengetriebene Prozessanalyse zur Aufdeckung von Verlustgaps bei Produktionsanlagen mit dem klaren Fokus auf nachhaltige Energieeinsparungen."
         },
         contact: {
             title: "Lass uns",
@@ -115,14 +115,14 @@ const translations = {
         projects: {
             title: "Proiectele",
             projects: "Mele",
-            p1Title: "Proiectul Unu",
-            p1Desc: "O aplicație web fascinantă construită cu tehnologii moderne. Focus pe UI/UX și performanță.",
-            p2Title: "Proiectul Doi",
-            p2Desc: "O soluție inovatoare mobile-first concepută pentru a rezolva eficient probleme din lumea reală.",
-            p3Title: "Proiectul Trei",
-            p3Desc: "Vizualizare complexă a sistemelor backend. Intensivă în date, dar prezentată cu claritate și stil.",
-            code: "Cod",
-            demo: "Demo"
+            p1Title: "Detectare Obiecte cu AI",
+            p1Desc: "Dezvoltarea unui software pentru detectarea rafturilor în producție, inclusiv construirea și antrenarea independentă a setului de date necesar.",
+            p2Title: "Monitorizarea Echipamentelor",
+            p2Desc: "Integrarea echipamentelor de producție în sistemul SCADA Iconics pentru monitorizarea în direct a datelor critice ale mașinilor, cum ar fi temperaturile și vitezele.",
+            p3Title: "ShopGuide (AI4Youth)",
+            p3Desc: "Asistent AI pentru persoanele cu deficiențe de vedere în supermarketuri. Dezvoltat la competiția Intel \"Zukunftsrebellen\" (locul 4 în calificările din Saxonia Inferioară).",
+            p4Title: "Analiza Proceselor Energetice",
+            p4Desc: "Analiza proceselor bazată pe date pentru a descoperi pierderile din unitățile de producție, cu un obiectiv clar concentrat pe economisirea durabilă a energiei."
         },
         contact: {
             title: "Hai să",
@@ -160,14 +160,14 @@ const translations = {
         projects: {
             title: "Мои",
             projects: "Проекты",
-            p1Title: "Проект Один",
-            p1Desc: "Завораживающее веб-приложение, созданное на современных технологиях. Фокус на UI/UX и производительности.",
-            p2Title: "Проект Два",
-            p2Desc: "Инновационное mobile-first решение для эффективного решения реальных задач.",
-            p3Title: "Проект Три",
-            p3Desc: "Сложная визуализация бэкенд-систем. Много данных, но представлено четко и стильно.",
-            code: "Код",
-            demo: "Демо"
+            p1Title: "ИИ-распознавание объектов",
+            p1Desc: "Разработка программного обеспечения для обнаружения стеллажей на производстве, включая самостоятельное создание и обучение необходимого набора данных.",
+            p2Title: "Мониторинг оборудования",
+            p2Desc: "Интеграция производственного оборудования в систему SCADA Iconics для оперативного контроля критических данных машин, таких как температура и скорость.",
+            p3Title: "ShopGuide (AI4Youth)",
+            p3Desc: "ИИ-ассистент для слабовидящих людей в супермаркетах. Разработано на конкурсе Intel \"Zukunftsrebellen\" (4 место в квалификации по Нижней Саксонии).",
+            p4Title: "Анализ энергопроцессов",
+            p4Desc: "Анализ процессов на основе данных для выявления потерь на производственных объектах с четким фокусом на устойчивое энергосбережение."
         },
         contact: {
             title: "Давайте",
