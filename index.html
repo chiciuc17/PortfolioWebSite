@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | Data and Process Analyst</title>
+    <meta name="description"
+        content="Portfolio of a Data and Process Analyst specializing in Data and Process Analysis.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css">
+    <link rel="icon" href="favicon.png" type="image/png">
+</head>
+
+<body>
+    <div class="blob-cont">
+        <div class="blob blob-one"></div>
+        <div class="blob blob-two"></div>
+        <div class="blob blob-three"></div>
+    </div>
+
+    <nav class="navbar">
+        <div class="container nav-content">
+            <a href="#" class="logo">Port<span class="accent">folio.</span></a>
+            <ul class="nav-links">
+                <li><a href="#hero" data-i18n="nav.home">Home</a></li>
+                <li><a href="#about" data-i18n="nav.about">About</a></li>
+                <li><a href="#projects" data-i18n="nav.projects">Projects</a></li>
+                <li><a href="#contact" class="btn-primary" data-i18n="nav.contact">Contact Me</a></li>
+                <li class="lang-dropdown">
+                    <span class="current-lang"><span class="fi fi-gb"></span> EN <i
+                            class="fas fa-chevron-down"></i></span>
+                    <ul class="lang-menu">
+                        <li data-lang="en"><span class="fi fi-gb"></span> English</li>
+                        <li data-lang="de"><span class="fi fi-de"></span> Deutsch</li>
+                        <li data-lang="ro"><span class="fi fi-ro"></span> Română</li>
+                        <li data-lang="ru"><span class="fi fi-ru"></span> Русский</li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="container hero-content">
+                <div class="hero-text fade-in-up">
+                    <span class="subtitle" data-i18n="hero.subtitle">Hello, I'm</span>
+                    <h1 class="glitch-text" data-text="Ion Chiciuc">Ion Chiciuc</h1>
+                    <h2 class="typewriter" data-i18n="hero.role">Data and Process Analyst</h2>
+                    <p data-i18n="hero.desc">With a strong foundation in data analysis and process optimization, I am
+                        dedicated to delivering
+                        innovative solutions that drive business growth and efficiency.</p>
+                    <div class="cta-group">
+                        <a href="#projects" class="btn-primary" data-i18n="hero.viewWork">View Work</a>
+                        <a href="#about" class="btn-secondary" data-i18n="hero.moreAbout">More About Me</a>
+                    </div>
+                </div>
+                <!-- Placeholder for Hero Image - To be replaced or generated -->
+                <div class="hero-image fade-in-up delay-200">
+                    <div class="img-placeholder">
+                        <div class="img-placeholder">
+                            <img src="Profile Picture Ion.jpg" alt="Ion Chiciuc" class="profile-img" draggable="false"
+                                oncontextmenu="return false;">
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2 class="section-title fade-in-up"><span data-i18n="about.title">About</span> <span class="accent"
+                        data-i18n="about.me">Me</span></h2>
+                <div class="about-content">
+                    <div class="about-card glass fade-in-up">
+                        <h3><i class="fas fa-graduation-cap"></i> <span
+                                data-i18n="about.qualification">Qualification</span></h3>
+                        <p data-i18n="about.qualDesc">With a absolved vocational training at a global company in Data
+                            and Process Analysis, I am
+                            dedicated to delivering
+                            innovative solutions that drive business growth and efficiency.</p>
+                    </div>
+                    <div class="about-card glass fade-in-up delay-100">
+                        <h3><i class="fas fa-code"></i> <span data-i18n="about.skills">Skills</span></h3>
+                        <div class="skills-tags">
+                            <span>Python</span>
+                            <span>SQL</span>
+                            <span>Iconics</span>
+                            <span>Power BI</span>
+                            <span>KNIME</span>
+                            <span>Data analytical Alghorithms</span>
+                            <span>Network Knowlege</span>
+                        </div>
+                    </div>
+                    <div class="about-card glass fade-in-up delay-200">
+                        <h3><i class="fas fa-rocket"></i> <span data-i18n="about.experience">Experience</span></h3>
+                        <p data-i18n="about.expDesc">Productive machine based data analytics, process optimization and
+                            data visualization.
+                            Solution programming from scratch for Object detection. On Site support experience. And
+                            more.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2 class="section-title fade-in-up"><span data-i18n="projects.title">My</span> <span class="accent"
+                        data-i18n="projects.projects">Projects</span></h2>
+                <div class="projects-grid">
+                    <!-- Project Card 1 -->
+                    <article class="project-card glass fade-in-up">
+                        <div class="project-img">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="project-info">
+                            <h3 data-i18n="projects.p1Title">Project One</h3>
+                            <p data-i18n="projects.p1Desc">A mesmerizing web application built with modern technologies.
+                                Focus on UI/UX and
+                                performance.</p>
+
+                        </div>
+                    </article>
+
+                    <!-- Project Card 2 -->
+                    <article class="project-card glass fade-in-up delay-100">
+                        <div class="project-img">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="project-info">
+                            <h3 data-i18n="projects.p2Title">Project Two</h3>
+                            <p data-i18n="projects.p2Desc">An innovative mobile-first solution designed to solve
+                                real-world problems efficiently.
+                            </p>
+                            <div class="project-links">
+                                <a href="#" class="link-btn"><i class="fab fa-github"></i> <span
+                                        data-i18n="projects.code">Code</span></a>
+                                <a href="#" class="link-btn"><i class="fas fa-external-link-alt"></i> <span
+                                        data-i18n="projects.demo">Demo</span></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project Card 3 -->
+                    <article class="project-card glass fade-in-up delay-200">
+                        <div class="project-img">
+                            <i class="fas fa-layer-group"></i>
+                        </div>
+                        <div class="project-info">
+                            <h3 data-i18n="projects.p3Title">Project Three</h3>
+                            <p data-i18n="projects.p3Desc">Complex backend system visualization. Data-heavy but
+                                presented with clarity and style.
+                            </p>
+                            <div class="project-links">
+                                <a href="#" class="link-btn"><i class="fab fa-github"></i> <span
+                                        data-i18n="projects.code">Code</span></a>
+                                <a href="#" class="link-btn"><i class="fas fa-external-link-alt"></i> <span
+                                        data-i18n="projects.demo">Demo</span></a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container text-center fade-in-up">
+                <h2 class="section-title"><span data-i18n="contact.title">Let's</span> <span class="accent"
+                        data-i18n="contact.talk">Talk</span></h2>
+                <p data-i18n="contact.desc">Have a project in mind or just want to say hi? My inbox is always open.</p>
+                <a href="mailto:chiciuc@outlook.de" class="btn-primary mt-4" data-i18n="contact.btn">Get In Touch</a>
+                <p class="mt-4"><a href="mailto:chiciuc@outlook.de" style="color: inherit; text-decoration: none;">chiciuc@outlook.de</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container text-center">
+            <p>&copy; 2026 Ion Chiciuc. <span data-i18n="footer.rights">All rights reserved.</span></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
